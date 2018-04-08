@@ -1,0 +1,24 @@
+{
+  "name": "logcollector",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "express": "3.0.x",
+    "async": "0.2.9",
+    "generic-pool": "*",
+    "mysql": "*",
+    "winston": "*",
+    "underscore": "*",
+    "nodemailer": "*",
+    "markdown": "*",
+    "moment": "*",
+    "cron": "*",
+    "request": "2.27.0"
+  },
+  "engines": {
+    "node": ">0.8.18"
+  }
+}
