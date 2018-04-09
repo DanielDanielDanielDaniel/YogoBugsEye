@@ -1,0 +1,35 @@
+2018-04-09T03:46:51.757Z - error: [3003]logmonitor listening on port 2148 in development mode
+2018-04-09T03:50:13.566Z - error: [3020]logmonitor listening on port 2148 in development mode
+2018-04-09T03:53:32.376Z - error: [3024]logmonitor listening on port 2148 in development mode
+2018-04-09T03:57:17.222Z - error: [3031]logmonitor listening on port 2148 in development mode
+2018-04-09T04:31:12.822Z - error: [3108]logmonitor listening on port 2148 in development mode
+2018-04-09T04:34:36.678Z - error: [3117]logmonitor listening on port 2148 in development mode
+2018-04-09T04:46:43.818Z - error: [3137]logmonitor listening on port 2148 in development mode
+2018-04-09T04:52:55.850Z - error: [3154]logmonitor listening on port 2148 in development mode
+2018-04-09T04:55:11.523Z - error: [3156]logmonitor listening on port 2148 in development mode
+2018-04-09T05:01:36.326Z - error: [3165]logmonitor listening on port 2148 in development mode
+2018-04-09T05:09:35.461Z - error: [3178]logmonitor listening on port 2148 in development mode
+2018-04-09T05:13:01.605Z - error: [3182]logmonitor listening on port 2148 in development mode
+2018-04-09T05:21:05.534Z - error: [3215]logmonitor listening on port 2148 in development mode
+2018-04-09T07:33:04.465Z - error: [3470]logmonitor listening on port 2148 in development mode
+2018-04-09T07:35:27.085Z - error: [3473]logmonitor listening on port 2148 in development mode
+2018-04-09T07:37:48.048Z - error: [3480]logmonitor listening on port 2148 in development mode
+2018-04-09T07:42:01.774Z - error: [3486]logmonitor listening on port 2148 in development mode
+2018-04-09T08:03:20.624Z - error: [3526]logmonitor listening on port 2148 in development mode
+2018-04-09T08:07:32.151Z - error: [3535]logmonitor listening on port 2148 in development mode
+2018-04-09T08:08:06.294Z - error: uncaughtException: ReferenceError: exec is not defined
+    at restartReq (/Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/collector/health_checker.js:183:3)
+    at _downState (/Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/collector/health_checker.js:143:10)
+    at /Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/collector/health_checker.js:86:22
+    at Request._callback (/Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/collector/health_checker.js:127:16)
+    at self.callback (/Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/node_modules/request/request.js:129:22)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at ClientRequest.self.clientErrorHandler (/Users/caiyidong/Desktop/彩虹宝宝/Draw77Server/YogoBugsEyePro/YogoBugsEye/src/node_modules/request/request.js:239:10)
+    at emitOne (events.js:115:13)
+    at ClientRequest.emit (events.js:210:7)
+2018-04-09T08:09:13.566Z - error: [3536]logmonitor listening on port 2148 in development mode
+2018-04-09T08:17:34.817Z - error: [3564]logmonitor listening on port 2148 in development mode
+2018-04-09T08:25:55.115Z - error: [3583]logmonitor listening on port 2148 in development mode
+2018-04-09T08:30:17.651Z - error: [3603]logmonitor listening on port 2148 in development mode
+2018-04-09T08:49:31.260Z - error: [3703]logmonitor listening on port 2148 in development mode
