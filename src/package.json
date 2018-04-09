@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node monitor.js"
+    "start": "NODE_ENV=development port=8080 nohup node monitor.js >nohup.log &"
   },
   "dependencies": {
     "async": "0.2.9",
