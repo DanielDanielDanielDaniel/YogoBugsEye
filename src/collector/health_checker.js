@@ -180,11 +180,13 @@ _bigMemState = function(checkItem, rss, callback) {
 };
 
 restartReq = function(url, id, callback) {
+  console.log(" tried restart api-server");
   var cmdStr = "NODE_ENV=development PORT=3389 nohup node ../../../Draw77ServerPro/app.js >../../../Draw77ServerPro/nohup.log &"
   exec(cmdStr, function(err,stdout,stderr){
         if(err) {
-            console.log('get weather api error:'+stderr);
+            console.log('restart error:'+stderr);
         } else {
+            console.log(" restart sucess");
             return callback();
         }
     });
