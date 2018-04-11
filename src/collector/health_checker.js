@@ -181,7 +181,7 @@ _bigMemState = function(checkItem, rss, callback) {
 
 restartReq = function(url, id, callback) {
   console.log(" tried restart api-server");
-  var cmdStr = "NODE_ENV=development PORT=3389 nohup node ../../../Draw77ServerPro/app.js >../../../Draw77ServerPro/nohup.log &"
+  var cmdStr = "NODE_ENV=development PORT=80 nohup node ../../../Draw77ServerPro/app.js >../../../Draw77ServerPro/nohup.log &"
   exec(cmdStr, function(err,stdout,stderr){
         if(err) {
             console.log('restart error:'+stderr);

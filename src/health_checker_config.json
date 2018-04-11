@@ -1,7 +1,7 @@
 [
 	{
 		"id":1,
-		"url":"http://127.0.0.1:3389/api/user/yinshan",
+		"url":"http://127.0.0.1:80/api/user/yinshan",
 		"state":1,
 		"method":"get",
 		"comment":"健康(health)84.15",
@@ -9,7 +9,7 @@
 		"dir":"../../../Draw77ServerPro",
 		"execCommand":
 			[
-				"NODE_ENV=development port=3389 node",
+				"NODE_ENV=development port=80 node",
 				"../../../Draw77ServerPro/app.js",
 				"--name","health",
 				"-c","6",
