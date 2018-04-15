@@ -9,7 +9,7 @@
 		"dir":"../../../Draw77ServerPro",
 		"execCommand":
 			[
-				"NODE_ENV=development port=80 node",
+				"NODE_ENV=production port=80 node",
 				"../../../Draw77ServerPro/app.js",
 				"--name","health",
 				"-c","6",
